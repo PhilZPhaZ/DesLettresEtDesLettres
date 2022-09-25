@@ -8,7 +8,7 @@ class FindWord:
     def create_liste(self) -> list:
         self.liste_mot = []
 
-        with open("lettres/pli07.txt", 'r') as f:
+        with open("pli07.txt", 'r') as f:
             self.data_liste = f.readlines()
 
         for line in self.data_liste:
